@@ -1,0 +1,203 @@
+body,ul,ol,p,h1,h2,h3,h4,h5,dl,dd,form,input,textarea,
+td,th,button,strong,em,select,video,canvas{margin:0;padding:0;}
+li{list-style:none;}
+table{ border-collapse:collapse;}
+textarea{resize:none;overflow:auto;}
+img{ border:none; vertical-align:middle;max-width: 100%;display: block;}
+em{ font-style:normal;}
+a{ text-decoration:none;}
+a,input{-webkit-appearance: none;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+input{outline: none;}
+a, img {-webkit-touch-callout: none; }
+html, body {-webkit-user-select: none;   user-select: none;}
+body{font-family: "Helvetica Neue", Helvetica, "STHeiTi", sans-serif; overflow-x:hidden; overflow-y:auto;font-size: 0.14rem;background-size: cover;}
+html{font-size: 100px;}
+.fl{float:left;}
+.fr{float:right;}
+.wrap{
+	width: 90%;
+	margin: 0 auto;
+}
+h1{
+	margin-top: 0.25rem;
+	font-size: 0.24rem;
+	font-weight: normal;
+}
+.time{
+	color: #8C8C8C;
+	font-size: 0.16rem;
+	margin: 0.14rem 0;
+}
+.title{
+	color: #5F7FA6;
+	font-size: 0.16rem;
+}
+.tree{
+	display: block;
+	width: 70%;
+	margin: 0.35rem auto 0.7rem;
+}
+.summary{
+	width: 100%;
+	border: 1px solid #ccc;
+	border-width: 1px 0;
+	position: relative;
+}
+.summary .sum-top{
+	color: #fff;
+	font-size: 0.18rem;
+	background-color: #0F857F;
+	display: inline-block;
+	padding: 0.08rem 0.15rem;
+	position: absolute;
+	left: 19.5%;
+	top: -0.21rem;
+	text-align: center;
+}
+.summary h2{
+	color: #0F857F;
+	margin: 0.35rem 0 0.4rem;
+	text-align: center;
+	font-size: 0.2rem;
+}
+.summary .sum-btm{
+	color: #fff;
+	background-color: #44B03F;
+	display: inline-block;
+	padding: 0.06rem;
+	font-size: 0.14rem;
+	text-align: center;
+	border-radius: 0.18rem;
+	position: absolute;
+	left: 16.5%;
+	bottom: -0.16rem;
+}
+.summary .ye{
+	position: absolute;
+	width: 6%;
+	top: 43%;
+	left: 45%;
+}
+.content{
+	margin-top: 0.5rem;
+}
+.content h3{
+	color: #333;
+	font-size: 0.22rem;
+	font-weight: bold;
+	text-align: center;
+}
+.content .blue{
+	color: #0068B7;
+}
+.content .red{
+	color: #E60011;
+}
+.content .click{
+	font-size: 0.18rem;
+	text-align: center;
+	margin-top: 0.05rem;
+}
+.num{
+	margin-top: 0.15rem;
+}
+.num .num-list{
+	width: 90%;
+	margin: 0 auto;
+	font-size: 0.16rem;
+	border: 1px dashed #ccc;
+	border-width: 0 0 0 1px;
+	padding:  0.5rem 0 0.4rem 0.15rem;
+	position: relative;
+}
+.num .last{
+	padding-bottom: 0;
+}
+.num .num-list .blu{
+	color: #0068BA;
+}
+.num .num-list .corn-a{
+	background-color: rgb(68, 176, 63);
+	display: inline-block;
+	padding: 0 0.16rem; 
+	color: #fff;
+	text-align: center;
+	font-size: 0.16rem;
+	position: absolute;
+	left: -0.15rem;
+	top: 0;
+	height: 0.3rem;
+	line-height: 0.3rem;
+}
+.num .num-list .corn-b{
+	width: 0;
+	height: 0;
+	border: 0.15rem solid transparent;
+	border-left: 0.15rem solid #44B03F;
+	position: absolute;
+	left: 0.58rem;
+	top: 0;
+}
+.num .num-list .corn-c{
+	width: 0.15rem;
+	height: 0.15rem;
+	background: url(../img/jiao.png) no-repeat;
+	background-size: 100%;
+	background-position: center;
+	display: inline-block;
+	position: absolute;
+	top: 0.3rem;
+	left: -0.15rem;
+}
+.num .num-list ul{
+	margin-top: 0.15rem;
+	color: #44B03F;
+	padding-left: 0.25rem;
+	position: relative;
+}
+.num .num-list ul i{
+	width: 0.2rem;
+	height: 0.2rem;
+	display: inline-block;
+	background: url(../img/star.png) no-repeat;
+	background-size: 90%;
+	background-position: center;
+	position: absolute;
+	left: 0;
+}
+.company{
+	margin: 0.5rem 0;
+}
+.company p{
+	text-align: center;
+	font-size: 0.16rem;
+	margin-bottom: 0.06rem;
+}
+.company h4{
+	text-align: center;
+	font-size: 0.16rem;
+	margin-bottom: 0.06rem;
+}
+.company .comp{
+	margin-bottom: 0.25rem;
+}
+footer{
+	position: relative;
+	margin-bottom: 0.3rem;
+}
+footer .gif{
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+}
+footer .id{
+	width: 25%;
+	position: absolute;
+	left: 45%;
+	top: 40%;
+}
+footer p{
+	text-align: center;
+	color: #333;
+	font-size: 0.14rem;
+}
